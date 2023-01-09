@@ -66,7 +66,7 @@ nav li{
     /* width: 584px; */
     height: 700px;
 }
-.contact{
+.btn-contact{
     color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
@@ -144,3 +144,66 @@ section{
 
 /* Resume style */
 
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-item .description{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+/* footer style */
+footer{
+    background: #FFF8F3;
+    height: 780px;
+    padding: 100px 200px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact p{
+    margin-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 30px;
+}
